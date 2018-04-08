@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AtividadeWear do Curso UNIPE em Dispositivos Mobile</string>
+    <string name="main_text_activity_big_text_main">
+        Esta Activity permite enviar lembretes de app\'s.
+        \n\n O tipo de notification deste exemplo foi: Big Text Style!
+    </string>
+</resources>
