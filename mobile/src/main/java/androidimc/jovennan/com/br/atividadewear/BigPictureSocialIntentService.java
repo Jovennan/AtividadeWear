@@ -2,6 +2,7 @@ package androidimc.jovennan.com.br.atividadewear;
 
 import android.app.IntentService;
 import android.app.Notification;
+import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
@@ -216,4 +217,6 @@ class BigPictureSocialIntentService extends IntentService {
 
         return notificationCompatBuilder;
     }
+
+
 }

@@ -313,7 +313,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
         // Adds the back stack.
-        stackBuilder.addParentStack(BigPictureSocialMainActivity.class);
+//        stackBuilder.addParentStack(BigPictureSocialMainActivity.class);
         // Adds the Intent to the top of the stack.
         stackBuilder.addNextIntent(mainIntent);
         // Gets a PendingIntent containing the entire back stack.
@@ -344,10 +344,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 //        // Pending intent =
 //        //      API <24 (M and below): activity so the lock-screen presents the auth challenge
 //        //      API 24+ (N and above): this should be a Service or BroadcastReceiver
-        PendingIntent replyActionPendingIntent;
+        PendingIntent replyActionPendingIntent = mainPendingIntent;
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            Intent intent = new Intent(this, null);
+            Intent intent = new Intent(this, BigPictureSocialIntentService.class);
             intent.setAction(BigPictureSocialIntentService.ACTION_COMMENT);
             replyActionPendingIntent = PendingIntent.getService(this, 0, intent, 0);
 
