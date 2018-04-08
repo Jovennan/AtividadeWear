@@ -1,7 +1,17 @@
 <resources>
     <string name="app_name">AtividadeWear do Curso UNIPE em Dispositivos Mobile</string>
+    <string name="big_text">Conteudo qualquer, apenas para exemplificar...</string>
+    <string name="big_text_title">Texto para notificar WEARABLE</string>
+    <string name="big_text_summary">Resumo do conteudo...</string>
+    <string name="big_image_title">Ionay Silva Postou:</string>
+    <string name="big_image_summary">Gostou de minha foto da Terra?</string>
     <string name="main_text_activity_big_text_main">
         Esta Activity permite enviar lembretes de app\'s.
         \n\n O tipo de notification deste exemplo foi: Big Text Style!
     </string>
+    <string name="main_text_activity_big_picture_main">
+        Esta Activity permite as app\'s de midia social a funcionalidade de um post individual.
+        \n\nNotificamos neste exemplo com uma imagem!
+    </string>
+    <string name="reply_label">reply</string>
 </resources>
